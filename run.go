@@ -12,7 +12,7 @@ import (
 //
 // Starts the process in a new session and sets the controlling terminal.
 func Start(cmd *exec.Cmd) (*os.File, error) {
-	println("hello to be v2")
+	println("hello to be v2.0.1")
 	return StartWithSize(cmd, nil)
 }
 
