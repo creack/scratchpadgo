@@ -22,7 +22,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/creack/pty"
+	pty "github.com/creack/scratchpadgo"
 )
 
 func main() {
@@ -55,7 +55,7 @@ import (
         "os/signal"
         "syscall"
 
-        "github.com/creack/pty"
+        pty "github.com/creack/scratchpadgo"
         "golang.org/x/term"
 )
 
